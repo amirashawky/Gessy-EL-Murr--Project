@@ -1,0 +1,107 @@
+
+html,body
+{
+	/*background-color: DodgerBlue;*/
+    background: url('Jessy-el--murr.png');
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+header
+{
+	width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header>div
+{
+    width: 33%;
+}
+.menue
+{
+    float:right;
+}
+.titel{
+    text-align: center;
+    color: #ffffff;
+    font: italic 20px "Times BoldItalic", Times, Georgia, serif;
+}
+main
+{	
+	height: 87%;
+    display: flex;   /* ht5ly mosklet el float right we left tt7l   */
+    flex-direction: row;
+    color: gray;		
+}
+.main_left
+{
+	width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: red;*/
+}
+.bootom_text 
+{
+	width: 60%;
+    float: left;
+}
+.main_right
+{
+    width: 50%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main_right>div
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	flex-wrap: wrap;
+}
+.main_right>div>div
+{
+   width: 60%;
+}
+footer
+{
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+}
+footer>div
+{
+    width: 50%;
+}
+.share
+{
+    margin-left: 15px;
+    float: left;
+}
+.down{
+    margin-right: 7px;
+    margin-top:   3px;
+    margin-left:  7px;
+    float: right;
+
+}
+.scroll
+{
+    margin:0 8px 0 0;
+    float: right;
+    color: #ffffff;
+    font: italic 17px "Lato Regular", Times, Georgia, serif;
+}

@@ -1,0 +1,159 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background: url('Jessy-el--murr.png');
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background: blue; */
+}
+header>div{
+    width: 33%;
+}
+main{
+    width: 100%;
+    height: 87%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+}
+
+footer>div{
+    width: 50%;
+}
+
+.menu{
+    float:right;
+    width: 4%;
+    height: 14px;
+}
+
+.logo{
+    width: 10%;
+    padding-top: 20px;
+}
+
+
+.media{
+    text-align: center;
+    color: #ffffff;
+    font: italic 12px  Times, Georgia, serif;
+    font-weight: bold;
+}
+.share{
+    margin: 0 0 10px 16px;
+    float: left;
+    width: 2%;
+}
+.scroll{
+    margin:0 8px 3px 0;
+    float: right;
+    color: #ffffff;
+    font: 10px sans-serif;
+    font-weight: bold;
+}
+.down{
+    margin-right: 10px;
+    margin-left: 3px;
+    float: right;
+    width: 1.5%;
+    height: 14px;
+
+}
+.num{
+    width: 1%;
+    height: 100%;
+    padding-right: 0;
+}
+.e1{
+    float: right;
+    padding-top: 10px;
+    height: 90px;
+}
+.e2{
+    float: right;
+    margin: 0 0 100px 0;
+    color: #ffffff;
+    font: italic 16px "Times BoldItalic", Times, Georgia, serif;
+    font-weight: bold;
+}
+
+.image{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.image>img{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 0;
+}
+/*.img{
+   width: 100%;
+}*/
+.smallImg{
+    width: 150px;
+
+}
+.mid{
+    color: white;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.mid>div{
+    width: 100%;
+}
+.text1{
+/*    padding-left: 190px;
+    padding-top: 190px;*/
+    /*margin: 200px;*/
+	font-size: 60px;
+	font-style: italic;
+}
+.text2{
+    left: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.text3{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.request{
+    width: 120px;
+}
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="vedio-style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <img src='Vector-Smart-Object8.png' class="logo">
+        </div>
+        <div>
+            <p class="videos">TV Shows</p>
+        </div>
+        <div>
+            <img src='Vector-Smart-Object9.png' class="menue">
+        </div>
+    </header>
+
+    <main class="middle">
+        <div class="vedSlide">
+            <img src="arrow.png" class="arrowTop" onclick="minusSlides(1)" style="cursor: pointer;">
+            <div class="slide">
+                <div>
+                    <img src="Photo1.png">
+                </div>
+                <div class="tex">
+                    <p class="tex1">Innovative Young Arabs1</p>
+                    <p class="tex2">To say that young Arabs today lack serious opportunities would be the understatement of the century.
+                        For millions of Arab youth (about 105 million of them), the outlook consistently looks bleaker. This
+                        year’s Arab Human Development Report placed the region’s youth unemployment rate at 29 percent—the
+                        highest in the world.
+                    </p>
+                </div>
+            </div>
+            <div class="slide">
+                <div>
+                    <img src="Photo1.png">
+                </div>
+                <div class="tex">
+                    <p class="tex1">Innovative Young Arabs2</p>
+                    <p class="tex2">To say that young Arabs today lack serious opportunities would be the understatement of the century.
+                        For millions of Arab youth (about 105 million of them), the outlook consistently looks bleaker. This
+                        year’s Arab Human Development Report placed the region’s youth unemployment rate at 29 percent—the
+                        highest in the world.
+                    </p>
+                </div>
+            </div>
+            <div class="slide">
+                <div>
+                    <img src="Photo1.png">
+                </div>
+                <div class="tex">
+                    <p class="tex1">Innovative Young Arabs3</p>
+                    <p class="tex2">To say that young Arabs today lack serious opportunities would be the understatement of the century.
+                        For millions of Arab youth (about 105 million of them), the outlook consistently looks bleaker. This
+                        year’s Arab Human Development Report placed the region’s youth unemployment rate at 29 percent—the
+                        highest in the world.
+                    </p>
+                </div>
+            </div>
+            <img src="arrow2.png" class="arrowDown" onclick="plusSlides(1)" onmouseover="" style="cursor: pointer;">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <img src='Facsebook.png' class="share">
+            <img src='twetter.png' class="share">
+            <img src='tele.png' class="share">
+        </div>
+        <div>
+            <img src='Vector-Smart-Object11.png' class="down">
+            <p class="scroll">SCROLL DOWN</p>
+        </div>
+    </footer>
+</body>
+<script>
+    var index = 1;
+    function plusSlides(n) {
+        index = index + 1;
+        showImage(index);
+    }
+    function minusSlides(n) {
+        index = index - 1;
+        showImage(index);
+    }
+    showImage(1);
+    function showImage(n) {
+        var i;
+        var slide = document.getElementsByClassName("slide");
+        if (n > slide.length) { index = 1 };
+        if (n < 1) { index = slide.length };
+        for (i = 0; i < slide.length; i++) {
+            slide[i].style.display = "none";
+        }
+        slide[index - 1].style.display = "block";
+    }
+</script>
+
+</html>
